@@ -2191,7 +2191,8 @@
       "validation",
       "profunctor",
       "numbers",
-      "these"
+      "these",
+      "foreign"
     ],
     "repo": "https://github.com/slamdata/purescript-halogen-datepicker.git",
     "version": "v1.0.0"
