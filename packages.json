@@ -2182,19 +2182,12 @@
   },
   "halogen-datepicker": {
     "dependencies": [
-      "enums",
-      "formatters",
-      "datetime",
       "halogen",
-      "halogen-css",
+      "datetime",
       "generics-rep",
-      "validation",
-      "profunctor",
-      "numbers",
-      "these",
-      "foreign"
+      "psci-support"
     ],
-    "repo": "https://github.com/slamdata/purescript-halogen-datepicker.git",
-    "version": "v1.0.0"
+    "repo": "https://github.com/rnons/purescript-halogen-day-picker.git",
+    "version": "v0.4.0"
   }
 }
