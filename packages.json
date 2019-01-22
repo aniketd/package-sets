@@ -12,6 +12,14 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "v5.1.0"
   },
+  "aff-bus": {
+    "dependencies": [
+      "avar",
+      "prelude"
+    ],
+    "repo": "https://github.com/slamdata/purescript-aff-bus.git",
+    "version": "v4.0.0"
+  },
   "aff-coroutines": {
     "dependencies": [
       "aff",
@@ -70,14 +78,16 @@
   "argonaut-codecs": {
     "dependencies": [
       "argonaut-core",
+      "arrays",
       "foreign-object",
       "integers",
       "maybe",
+      "nonempty",
       "ordered-collections",
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "argonaut-core": {
     "dependencies": [
@@ -104,7 +114,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -305,6 +315,13 @@
     "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
     "version": "v5.0.0"
   },
+  "crypto": {
+    "dependencies": [
+      "node-buffer"
+    ],
+    "repo": "https://github.com/oreshinya/purescript-crypto.git",
+    "version": "v1.1.0"
+  },
   "css": {
     "dependencies": [
       "colors",
@@ -317,6 +334,20 @@
       "transformers"
     ],
     "repo": "https://github.com/slamdata/purescript-css.git",
+    "version": "v4.0.0"
+  },
+  "data-algebrae": {
+    "dependencies": [
+      "arrays",
+      "foreign-object",
+      "generics-rep",
+      "maybe",
+      "ordered-collections",
+      "prelude",
+      "spec",
+      "spec-quickcheck"
+    ],
+    "repo": "https://github.com/i-am-tom/purescript-data-algebrae",
     "version": "v4.0.0"
   },
   "datetime": {
@@ -766,7 +797,7 @@
       "variant"
     ],
     "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git",
-    "version": "v0.4.0"
+    "version": "v0.5.2"
   },
   "halogen-renderless": {
     "dependencies": [
@@ -783,7 +814,7 @@
       "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v3.0.2"
+    "version": "v4.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -888,11 +919,11 @@
   },
   "json-schema": {
     "dependencies": [
-      "prelude",
-      "typelevel-prelude",
       "foreign-object",
       "generics-rep",
-      "simple-json"
+      "prelude",
+      "simple-json",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/felixmulder/purescript-json-schema.git",
     "version": "v0.0.1"
@@ -957,6 +988,14 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-math.git",
     "version": "v2.1.1"
+  },
+  "matrices": {
+    "dependencies": [
+      "arrays",
+      "strings"
+    ],
+    "repo": "https://github.com/kRITZCREEK/purescript-matrices",
+    "version": "v4.0.0"
   },
   "maybe": {
     "dependencies": [
@@ -1242,7 +1281,7 @@
       "svg-parser-halogen"
     ],
     "repo": "https://github.com/citizennet/purescript-ocelot.git",
-    "version": "v0.13.0"
+    "version": "v0.14.0"
   },
   "options": {
     "dependencies": [
@@ -1583,7 +1622,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v6.0.0"
+    "version": "v6.2.0"
   },
   "react-dom": {
     "dependencies": [
@@ -1662,6 +1701,23 @@
     "repo": "https://github.com/slamdata/purescript-routing.git",
     "version": "v8.0.0"
   },
+  "routing-duplex": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "generics-rep",
+      "globals",
+      "lazy",
+      "prelude",
+      "profunctor",
+      "record",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-routing-duplex",
+    "version": "v0.2.0"
+  },
   "run": {
     "dependencies": [
       "aff",
@@ -1679,6 +1735,14 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-run.git",
+    "version": "v2.0.0"
+  },
+  "run-streaming": {
+    "dependencies": [
+      "prelude",
+      "run"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-run-streaming.git",
     "version": "v2.0.0"
   },
   "semirings": {
@@ -1743,6 +1807,14 @@
     ],
     "repo": "https://github.com/bodil/purescript-smolder.git",
     "version": "v11.0.1"
+  },
+  "snabbdom": {
+    "dependencies": [
+      "maybe",
+      "web-dom"
+    ],
+    "repo": "https://github.com/LukaJCB/purescript-snabbdom.git",
+    "version": "v1.0.1"
   },
   "sodium": {
     "dependencies": [
@@ -2020,6 +2092,7 @@
   "unordered-collections": {
     "dependencies": [
       "enums",
+      "functions",
       "integers",
       "prelude",
       "record",
