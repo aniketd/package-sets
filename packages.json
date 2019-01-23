@@ -2271,12 +2271,19 @@
   },
   "halogen-day-picker": {
     "dependencies": [
+      "enums",
+      "formatters",
       "halogen",
+      "halogen-css",
       "datetime",
       "generics-rep",
+      "validation",
+      "profunctor",
+      "numbers",
+      "these",
       "psci-support"
     ],
     "repo": "https://github.com/rnons/purescript-halogen-day-picker.git",
-    "version": "v0.4.0"
+    "version": "master"
   }
 }
